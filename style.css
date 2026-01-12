@@ -28,15 +28,16 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #0f0f0f;
+  background: #ffffff;   /* ✅ 白色背景 */
   border-radius: 18px;
-  box-shadow: 0 15px 45px rgba(0,0,0,0.8);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
   padding: 26px;
   box-sizing: border-box;
   backface-visibility: hidden;
   text-align: center;
-  color: #d4af37;
+  color: #1f1f1f;        /* 深色文字 */
 }
+
 
 .back {
   transform: rotateY(180deg);
