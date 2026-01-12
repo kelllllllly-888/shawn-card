@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #000000;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 
 .card {
   width: 340px;
-  height: 430px;
+  height: 420px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.8s;
@@ -28,16 +28,14 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #ffffff;   /* ✅ 白色背景 */
-  border-radius: 18px;
+  background: #ffffff;
+  border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  padding: 26px;
+  padding: 24px;
   box-sizing: border-box;
   backface-visibility: hidden;
   text-align: center;
-  color: #1f1f1f;        /* 深色文字 */
 }
-
 
 .back {
   transform: rotateY(180deg);
@@ -46,51 +44,41 @@ body {
 h1 {
   margin: 0;
   font-size: 20px;
-  color: #000000;
-  letter-spacing: 0.5px;
 }
 
 .sub {
-  margin-top: 6px;
-  margin-bottom: 18px;
-  font-size: 14px;
-  color: #b8962e;
+  color: #f57c00;
+  margin-bottom: 16px;
 }
 
 h2 {
-  margin: 18px 0 6px;
-  font-size: 22px;
-  color: #000000;
+  margin: 16px 0 4px;
 }
 
 .title {
-  font-size: 15px;
-  margin-bottom: 14px;
-  color: #c9b46a;
-  letter-spacing: 0.8px;
+  color: #555;
+  margin-bottom: 12px;
 }
 
 .info {
   font-size: 14px;
   margin: 6px 0;
-  color: #333333;
 }
 
 a {
   display: block;
   margin: 10px 0;
-  color: #0a58ca;
+  color: #1565c0;
   text-decoration: none;
   font-weight: bold;
 }
 
 button {
-  margin-top: 18px;
-  padding: 8px 18px;
-  border-radius: 22px;
-  border: 1px solid #d4af37;
-  background: transparent;
-  color: #d4af37;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #1565c0;
+  color: white;
   cursor: pointer;
-  font-size: 14px;
 }
